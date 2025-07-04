@@ -27,7 +27,7 @@ jobs:
       - name: Prepare HTML for GitHub Pages
         run: |
           mkdir publish
-          cp output/*.html publish/
+          cp output/*.html publish/index.html
 
       - name: Deploy HTML to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
