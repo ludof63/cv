@@ -9,8 +9,7 @@ cv:
       username: Ludof63
   sections:
     Who am I:
-      - "Computer Science student at TUM with a great spirit of adaptivity and a passion for databases and distributed systems.
-        Currently working as a research assistant at the [Chair for Decentralized Information Systems](https://www.cs.cit.tum.de/dis/home/) alongside my studies."
+      - "Computer Science student at TUM with a great spirit of adaptivity and a passion for databases and distributed systems."
     education:
       - institution: Technical University of Munich, [TUM](https://www.tum.de/en/studies/degree-programs/detail/informatics-master-of-science-msc)
         area: Computer Science
@@ -19,9 +18,10 @@ cv:
         end_date: present
         highlights:
           - "Focus on [Database Implementation](https://db.in.tum.de), Distributed Systems, Data Structure Engineering and Networks."
-          - "Research Assistant for [Chair for Decentralized Information Systems](https://www.cs.cit.tum.de/dis/home/) and Tutor for [Systems Research Group](https://dse.in.tum.de/) during SS 25."
-          - "Collaborated with [CedarDB](https://cedardb.com) on my [Interdisciplinary Project](https://github.com/ludof63/MTSK-analysis)."
-          - "Completed [System Programming Praktikum](https://github.com/ls1-sys-prog-course/docs) with maximum grade."
+          - "Relevant Courses:  Database Implementation, Query Optimization, High Performance Query Processing, Transaction Systems, System Programming, P2P Systems."
+          - "Research Assistant at [Decentralized Information Systems Chair](https://www.cs.cit.tum.de/dis/home/) and Tutor at [Systems Research Group](https://dse.in.tum.de/)."
+          - "Collaborated with [CedarDB](https://cedardb.com) for my [Interdisciplinary Project](https://github.com/ludof63/MTSK-analysis)."
+          - "Management Team Member of [TUMuchData](https://www.tumuchdata.club/) ( database systems student initiative)."
 
       - institution: University of Genoa, [UniGe](https://unige.it/en)
         area: Computer Science
@@ -30,10 +30,9 @@ cv:
         end_date: 2023-07
         highlights:
           - "Grade: 110 cum laude (maximum), [transcript](https://drive.google.com/file/d/1YxzSi48knBVc6Q_5u6_s_Bfd7T5kZX3l/view)."
-          - "Finalist in [Leonardo-Unige Cybersecurity Scholarship Program](https://www.leonardo.com/en/news-and-stories-detail/-/detail/the-leonardo-unige-cybersecurity-scholarship-program-begins)."
+          - "Thesis: 'Monitoring and improvement within a cloud migration process of an integration layer'"
           - "Winner of [Samsung Innovation Campus 2022](https://www.samsung.com/it/campaign/innovation-campus/) at UniGe."
-          - "Participated in [CyberChallenge](https://cyberchallenge.it/) 2022."
-          - "Member of CTF team [ZenHack](https://zenhack.it/)."
+          - "Finalist in [Leonardo Cybersecurity Scholarship Program](https://www.leonardo.com/en/news-and-stories-detail/-/detail/the-leonardo-unige-cybersecurity-scholarship-program-begins), [CyberChallenge 2022](https://cyberchallenge.it/), member of [ZenHack](https://zenhack.it/)."
 
     experience:
       - company: TUM - [Chair for Decentralized Information Systems](https://www.cs.cit.tum.de/dis/home/)
@@ -42,8 +41,7 @@ cv:
         start_date: 2025-04
         end_date: present
         highlights:
-          - "Currently developing a cloud OLTP database simulator to evaluate garbage collection strategies in a distributed architecture,
-            with LeanStore as the primary node performing out-of-place writes to a distributed storage system."
+          - "Cloud OLTP: Garbage collection in a system that performs out-of-place writes on a distributed storage service."
 
       - company: TUM - [Systems Research Group](https://dse.in.tum.de/)
         position: Tutor
@@ -51,16 +49,7 @@ cv:
         start_date: 2025-04
         end_date: present
         highlights:
-          - "Tutoring for the practical course [System Programming](https://github.com/ls1-sys-prog-course/docs) during summer semester 2025, offered by [Systems Research Group](https://dse.in.tum.de/)."
-
-      - company: TUMuchData
-        position: Management Team Member
-        location: Munich, Germany
-        start_date: 2024-07
-        end_date: present
-        highlights:
-          - "[TUMuchData](https://www.tumuchdata.club/) is a Database Systems Student Initiative."
-          - "Head of Communication for WS 24/25 and SS 25."
+          - "Tutoring for the practical course [System Programming](https://github.com/ls1-sys-prog-course/docs)."
 
       - company: Axpo
         position: Software Engineer Intern
@@ -68,42 +57,51 @@ cv:
         start_date: 2023-03
         end_date: 2023-07
         highlights:
-          - "Bachelor Thesis on the work done as a sofware developer intern at [Axpo](https://welkww.axpo.com) on 'Monitoring and improvement within a cloud migration process of an integration layer'."
-          - "Designed a set of [ELK](https://www.elastic.co/elastic-stack) dashboards for monitoring, using a [custom solution to remap ElasticSearch's production indexes without downtime](https://github.com/ludof63/elasticsearch-remapping)."
-          - "Developed a [Mulesfot](https://www.mulesoft.com/) application to automatize the recovery of failed practices inside the integration layer."
-          - "Technologies Used: Java, Python, RAML, ElasticSearch, Kibana, Mulesof"
+          - "Developed a [Mulesfot](https://www.mulesoft.com/) application to automatize the recovery of failed practices."
+          - "Set of [ELK](https://www.elastic.co/elastic-stack) dashboards for monitoring, using a [custom solution](https://github.com/ludof63/elasticsearch-remapping) to remap ElasticSearch's production indexes without downtime."
 
     projects:
-      - name: MTSK-analysis
+      - name: MTSK-analysis - Master Interdisciplinary Project
         date: "[MTSK-analysis](https://github.com/ludof63/MTSK-analysis)"
         highlights:
-          - Analysis of Fuel Prices in Germany, performed with [CedarDB](https://cedardb.com/) and HTAP database (Interdisciplinary Project of my Master's as TUM).
-          - Data analysis + client to simulate transactional workload (highlight HTAP database advantages).
-          - Focus on testing CedarDB and devolping a Use Case for new users focusing on reproducability.
-          - "Tools Used: Shell, Grafana, Docker, Python"
+          - Analysis of Fuel Prices in Germany, performed with [CedarDB](https://cedardb.com/).
+          - "HTAP workoad simulation: data analysis & transactional workload, focus on testing and reproducability."
 
       - name: Kademlia - Distributed Hash Table
         date: "[soon on github]()"
         highlights:
-          - My distributed hash table that follows [Kademlia's protocol](https://ieeexplore.ieee.org/document/4447808), written in Go.
-          - "Tools Used: Go, ProtoBuf"
+          - "Distributed hash table that follows [Kademlia's protocol](https://ieeexplore.ieee.org/document/4447808), built in Go using ProtoBuf."
+
+      - name: High-Perfomance Query Processing Praktikum
+        date: 2025
+        highlights:
+          - "Built a compile query engine in C++. [Compile query plans](https://www.vldb.org/pvldb/vol4/p539-neumann.pdf) to efficient (C++) code ."
+
+      - name: Modern Database Systems on Modern CPU Architechtures - Assignments
+        date: 2024
+        highlights:
+          - "Developed various parts of a modern database system in C++ (buffer manager,slotted pages, B+ tree)"
 
       - name: Distributed Query Execution and Aggregation
         date: "[distributed-query](https://github.com/Ludof63/distributed-aggregation-query.git)"
         highlights:
-          - Small scale distributed query processing tasks done for my Master's course [Cloud-Based Data Processing]().
-          - "Tools Used: C++, Azure Cloud"
-
-      - name: BlueTalk - Android Chat via Bluetooth
-        date: "[bluetalk](https://github.com/Ludof63/BlueTalk.git)"
-        highlights:
-          - "I developed a small Bluetooth chat in Android using Java during my bachelor's degree."
-          - "Tools Used: Java, Android Studio"
+          - Small scale distributed query processing in C++ using Azure Cloud done for Cloud-Based Data Processing.
 
     skills:
       - label: Programming Languages proficient
         details: C++, Python, SQL, Shell, C (minimum 2 years of active use)
       - label: Programming Languages amateur
-        details: Go, Java, C#, OCaml, Typescript, PHP (minimum 1 extensive project)
+        details: Go, Java, C#, OCaml, Nix, Typescript, PHP (minimum 1 extensive project)
       - label: Spoken Languages"
-        details: "Italian (native speaker), English ([C1](https://drive.google.com/file/d/197oz8vZam2bPiKLGewCrNZJh2eCsf-Li/view?usp=sharing)), German (A2)"
+        details: "Italian (native speaker), English ([fluent](https://drive.google.com/file/d/197oz8vZam2bPiKLGewCrNZJh2eCsf-Li/view?usp=sharing)), German (basic)"
+
+design:
+  theme: classic
+  page:
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_last_updated_date: false
+    show_page_numbering: false
+    size: us-letter
+    top_margin: 0.5cm
